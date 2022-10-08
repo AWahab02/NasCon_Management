@@ -1,0 +1,102 @@
+﻿body {
+    background: #97a4b4;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /*width: 100%;
+    min-height:100vh;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("new.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;*/
+}
+
+header {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: Montserrat;
+    font-size: 80px;
+    opacity: 0.8;
+}
+
+.col {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    transition: 0.6s;
+}
+
+.newclass {
+    width: 500px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link_on_top {
+    flex: 1;
+    text-align: right;
+}
+
+    .link_on_top ul li {
+        list-style: none;
+        display: inline-block;
+        padding: 15px 20px;
+        position: relative;
+    }
+
+        .link_on_top ul li a {
+            color: white;
+            font-size: 22px;
+            text-decoration: none;
+        }
+
+        .link_on_top ul li::after {
+            content: '';
+            width: 0%;
+            height: 2px;
+            background: #f44336;
+            display: block;
+            margin: auto;
+            transition: 0.5s;
+        }
+
+        .link_on_top ul li:hover::after {
+            width: 100%;
+        }
+
+.Hash {
+    width: 270px;
+    height: 80px;
+    border: 0;
+    outline: none;
+    background: #2f2f2f;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 40px;
+    margin-top: 200px;
+    text-align: center;
+    box-shadow: 0 6px 20px -5px rgba(0,0,0,0,4);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+    .Hash:hover {
+        background: #f44336;
+    }

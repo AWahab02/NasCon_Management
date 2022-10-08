@@ -1,0 +1,265 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("sports.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link_on_top {
+    flex: 1;
+    text-align: right;
+}
+
+    .link_on_top ul li {
+        list-style: none;
+        display: inline-block;
+        padding: 15px 20px;
+        position: relative;
+    }
+
+        .link_on_top ul li a {
+            color: white;
+            font-size: 22px;
+            text-decoration: none;
+        }
+
+        .link_on_top ul li::after {
+            content: '';
+            width: 0%;
+            height: 2px;
+            background: #f44336;
+            display: block;
+            margin: auto;
+            transition: 0.5s;
+        }
+
+        .link_on_top ul li:hover::after {
+            width: 100%;
+        }
+
+h2 {
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    opacity: 1;
+    font-size: 65px;
+    letter-spacing: 5px;
+}
+
+.main_txt {
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+    .main_txt h1 {
+        margin-top: -20px;
+        opacity: 0.8;
+        font-size: 50px;
+        letter-spacing: 3px;
+    }
+
+
+
+/*CS EVENTS*/
+.col {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+    .col h3 {
+        font-size: 26px;
+        color: #f44336;
+    }
+
+    .col p {
+        color: white;
+        font-size: 20px;
+        line-height: 3rem;
+    }
+
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col {
+    flex-basis: 50%;
+    background: rgba(4,9,30,0.7);
+    border-radius: 10px;
+    margin-top: 70px;
+    margin-bottom: 5%;
+    padding: 90px 90px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+.col:hover {
+    box-shadow: 0 0 40px 0px #000000;
+}
+
+.layer {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.6s;
+}
+
+    .layer:hover {
+        background: rgba(226,0,0,0.7);
+    }
+
+    .layer h5 {
+        width: 100%;
+        font-weight: 500;
+        color: #fff;
+        font-size: 26px;
+        bottom: 0;
+        left: 90%;
+        transform: translateX(-50%);
+        position: absolute;
+        opacity: 0;
+        transition: 0.5s;
+    }
+
+    .layer:hover h5 {
+        bottom: 49%;
+        opacity: 1;
+    }
+/*TEAM EVENTS*/
+h9 {
+    width: 90%;
+    color: white;
+    position: absolute;
+    /*top: 35%;
+    left: 50%;*/
+    font-weight: 600;
+    left: 1000px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    opacity: 0.8;
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+
+.col_2 {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+    .col_2 h3 {
+        font-size: 26px;
+        color: #f44336;
+    }
+
+    .col_2 p {
+        color: white;
+        font-size: 20px;
+        line-height: 3rem;
+    }
+
+.row_2 {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col_2 {
+    flex-basis: 32%;
+    background: rgba(4,9,30,0.7);
+    border-radius: 10px;
+    margin-top: 70px;
+    margin-bottom: 5%;
+    padding: 90px 90px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+.col_2:hover {
+    box-shadow: 0 0 40px 0px #000000;
+}
+
+.layer_2 {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.6s;
+}
+
+    .layer_2:hover {
+        background: rgba(226,0,0,0.7);
+    }
+
+    .layer_2 h5 {
+        width: 100%;
+        font-weight: 500;
+        color: #fff;
+        font-size: 26px;
+        bottom: 0;
+        left: 85%;
+        transform: translateX(-50%);
+        position: absolute;
+        opacity: 0;
+        transition: 0.5s;
+    }
+
+    .layer_2:hover h5 {
+        bottom: 49%;
+        opacity: 1;
+    }

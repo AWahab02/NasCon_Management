@@ -1,0 +1,601 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    -webkit-text-fill-color: white;
+    -webkit-box-shadow: 0 0 0px 1000px #b200ff #000 inset;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+
+
+.reg__form {
+    border: 2px solid white;
+    border-radius: 20px;
+    outline: none;
+    background: none;
+    color: white;
+    padding: 10px;
+}
+
+.reg__I {
+    border: 2px solid white;
+    border-radius: 20px;
+    outline: none;
+    background: none;
+    color: white;
+    padding: 10px;
+}
+
+.reg__E {
+    border: 2px solid white;
+    border-radius: 20px;
+    outline: none;
+    background: none;
+    color: white;
+    padding: 10px;
+}
+
+.reg__CNIC {
+    border: 2px solid white;
+    border-radius: 20px;
+    outline: none;
+    background: none;
+    color: white;
+    padding: 10px;
+}
+
+.reg__Contact {
+    border: 2px solid white;
+    border-radius: 20px;
+    outline: none;
+    background: none;
+    color: white;
+    padding: 10px;
+}
+
+.reg__TN {
+    border: 2px solid white;
+    border-radius: 20px;
+    outline: none;
+    background: none;
+    color: white;
+    padding: 10px;
+}
+.reg__M2N {
+    border: 2px solid white;
+    border-radius: 20px;
+    outline: none;
+    background: none;
+    color: white;
+    padding: 10px;
+}
+
+.reg__M2E {
+    border: 2px solid white;
+    border-radius: 20px;
+    outline: none;
+    background: none;
+    color: white;
+    padding: 10px;
+}
+
+/*Siblings*/
+.reg__form1 {
+    position: absolute;
+    top: 0.6rem;
+    left: 1.4rem;
+    cursor: text;
+    transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+}
+
+.reg__form2 {
+    position: absolute;
+    top: 9rem;
+    left: 1.4rem;
+    cursor: text;
+    transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+}
+
+.reg__form3 {
+    position: absolute;
+    top: 17.4rem;
+    left: 1.4rem;
+    cursor: text;
+    transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+}
+
+.reg__form4 {
+    position: absolute;
+    top: 25.6rem;
+    left: 1.4rem;
+    cursor: text;
+    transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+}
+
+.reg__form5 {
+    position: absolute;
+    top: 34rem;
+    left: 1.4rem;
+    cursor: text;
+    transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+}
+
+.reg__form6 {
+    position: absolute;
+    top: 42.2rem;
+    left: 1.4rem;
+    cursor: text;
+    transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+}
+.reg__form7 {
+    position: absolute;
+    top: 50.6rem;
+    left: 1.4rem;
+    cursor: text;
+    transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+}
+
+.reg__form8 {
+    position: absolute;
+    top: 58.8rem;
+    left: 1.4rem;
+    cursor: text;
+    transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+}
+
+
+/*Animation*/
+.reg__form:focus {
+    border: 3px solid black;
+}
+
+    .reg__form:focus ~ .reg__form1,
+    .reg__form:not(:placeholder-shown).reg__form:not(:focus) ~ .reg__form1 {
+        top: -0.99rem;
+        left: 0.9rem;
+        font-size: 25px;
+        background: #97a4b4;
+    }
+
+.reg__I:focus {
+    border: 3px solid black;
+}
+
+    .reg__I:focus ~ .reg__form2,
+    .reg__I:not(:placeholder-shown).reg__I:not(:focus) ~ .reg__form2 {
+        top: 7.2rem;
+        left: 0.6rem;
+        font-size: 25px;
+        background: #97a4b4;
+    }
+
+.reg__E:focus {
+    border: 3px solid black;
+}
+
+    .reg__E:focus ~ .reg__form3,
+    .reg__E:not(:placeholder-shown).reg__E:not(:focus) ~ .reg__form3 {
+        top: 15.8rem;
+        left: 0.6rem;
+        font-size: 25px;
+        background: #97a4b4;
+    }
+
+.reg__CNIC:focus {
+    border: 3px solid black;
+}
+
+    .reg__CNIC:focus ~ .reg__form4,
+    .reg__CNIC:not(:placeholder-shown).reg__CNIC:not(:focus) ~ .reg__form4 {
+        top: 24rem;
+        left: 0.6rem;
+        font-size: 25px;
+        background: #97a4b4;
+    }
+
+.reg__Contact:focus {
+    border: 3px solid black;
+}
+
+    .reg__Contact:focus ~ .reg__form5,
+    .reg__Contact:not(:placeholder-shown).reg__Contact:not(:focus) ~ .reg__form5 {
+        top: 32.2rem;
+        left: 0.6rem;
+        font-size: 25px;
+        background: #97a4b4;
+    }
+
+.reg__TN:focus {
+    border: 3px solid black;
+}
+
+    .reg__TN:focus ~ .reg__form6,
+    .reg__TN:not(:placeholder-shown).reg__TN:not(:focus) ~ .reg__form6 {
+        top: 40.6rem;
+        left: 0.6rem;
+        font-size: 25px;
+        background: #97a4b4;
+    }
+reg__M2N:focus {
+    border: 3px solid black;
+}
+
+.reg__M2N:focus ~ .reg__form7,
+.reg__M2N:not(:placeholder-shown).reg__M2N:not(:focus) ~ .reg__form7 {
+    top: 48.8rem;
+    left: 0.6rem;
+    font-size: 25px;
+    background: #97a4b4;
+}
+
+.reg__M2E:focus {
+    border: 3px solid black;
+}
+
+    .reg__M2E:focus ~ .reg__form8,
+    .reg__M2E:not(:placeholder-shown).reg__M2E:not(:focus) ~ .reg__form8 {
+        top: 57.1rem;
+        left: 0.6rem;
+        font-size: 25px;
+        background: #97a4b4;
+    }
+
+/*Body work and other attb*/
+header {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: Montserrat;
+    font-size: 80px;
+    opacity: 0.8;
+}
+
+.line {
+    border-left: 6px solid white;
+    height: 800px;
+    position: absolute;
+    left: 34%;
+    top: 18%;
+    opacity: 0.6;
+}
+
+.left {
+    font-family: Ubuntu;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.reg {
+    font-family: Calibri;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 190px;
+    left: 850px;
+    width: 1000px;
+    height: 605px;
+}
+
+body {
+    background-color: #97a4b4;
+    /*    background-image: linear-gradient(45deg,#b200ff,#328f8a);
+*/ -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+p {
+    margin-left: 15px;
+}
+
+.read p {
+    font-weight: 600;
+    color: #ff4436;
+}
+
+input,
+input::placeholder {
+    font: 20px/3 sans-serif;
+    font-weight: bold;
+}
+
+.Hash {
+    width: 270px;
+    height: 80px;
+    border: 0;
+    outline: none;
+    background: #2f2f2f;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 0 6px 20px -5px rgba(0,0,0,0,4);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+    .Hash:hover {
+        background: #f44336;
+    }
+
+.button__form {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    box-shadow: 0 0 12px -6px #000000;
+    position: absolute;
+    top: 0;
+    right: -40px;
+    /* background:red;*/
+    opacity: 1;
+}
+
+    .button__form svg {
+        width: 40px;
+        margin: 20px;
+    }
+
+svg path {
+    stroke-width: 3;
+    stroke: #fff;
+    stroke-dasharray: 34;
+    stroke-dashoffset: 34;
+    stroke-linecap: round;
+}
+
+.active {
+    background: #eb13b2;
+    transition: 1s;
+}
+
+    .active .button__form {
+        right: 0;
+        opacity: 1;
+        transition: 1s;
+    }
+
+    .active p {
+        margin-right: 125px;
+        transition: 1s;
+    }
+
+    .active svg path {
+        stroke-dashoffset: 0;
+        transition: 1s;
+        transition-delay: 1s;
+    }
+
+
+
+
+/*BUBLES ANIMATION*/
+#background-wrap {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+/* KEYFRAMES */
+
+@-webkit-keyframes animateBubble {
+    0% {
+        margin-top: 1000px;
+    }
+
+    100% {
+        margin-top: -100%;
+    }
+}
+
+@-moz-keyframes animateBubble {
+    0% {
+        margin-top: 1000px;
+    }
+
+    100% {
+        margin-top: -100%;
+    }
+}
+
+@keyframes animateBubble {
+    0% {
+        margin-top: 1000px;
+    }
+
+    100% {
+        margin-top: -100%;
+    }
+}
+
+@-webkit-keyframes sideWays {
+    0% {
+        margin-left: 0px;
+    }
+
+    100% {
+        margin-left: 50px;
+    }
+}
+
+@-moz-keyframes sideWays {
+    0% {
+        margin-left: 0px;
+    }
+
+    100% {
+        margin-left: 50px;
+    }
+}
+
+@keyframes sideWays {
+    0% {
+        margin-left: 0px;
+    }
+
+    100% {
+        margin-left: 50px;
+    }
+}
+
+/* ANIMATIONS */
+
+.x1 {
+    -webkit-animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    left: -5%;
+    top: 5%;
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    transform: scale(0.6);
+}
+
+.x2 {
+    -webkit-animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    left: 5%;
+    top: 80%;
+    -webkit-transform: scale(0.4);
+    -moz-transform: scale(0.4);
+    transform: scale(0.4);
+}
+
+.x3 {
+    -webkit-animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    left: 10%;
+    top: 40%;
+    -webkit-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    transform: scale(0.7);
+}
+
+.x4 {
+    -webkit-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+    animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+    left: 20%;
+    top: 0;
+    -webkit-transform: scale(0.3);
+    -moz-transform: scale(0.3);
+    transform: scale(0.3);
+}
+
+.x5 {
+    -webkit-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    left: 30%;
+    top: 50%;
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    transform: scale(0.5);
+}
+
+.x6 {
+    -webkit-animation: animateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    left: 50%;
+    top: 0;
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    transform: scale(0.8);
+}
+
+.x7 {
+    -webkit-animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    left: 65%;
+    top: 70%;
+    -webkit-transform: scale(0.4);
+    -moz-transform: scale(0.4);
+    transform: scale(0.4);
+}
+
+.x8 {
+    -webkit-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+    animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+    left: 80%;
+    top: 10%;
+    -webkit-transform: scale(0.3);
+    -moz-transform: scale(0.3);
+    transform: scale(0.3);
+}
+
+.x9 {
+    -webkit-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    left: 90%;
+    top: 50%;
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    transform: scale(0.6);
+}
+
+.x10 {
+    -webkit-animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    left: 80%;
+    top: 80%;
+    -webkit-transform: scale(0.3);
+    -moz-transform: scale(0.3);
+    transform: scale(0.3);
+}
+
+/* OBJECTS */
+
+.bubble {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+    -moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+    height: 200px;
+    position: absolute;
+    width: 200px;
+}
+
+    .bubble:after {
+        background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0) 70%); /* FF3.6+ */
+        background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.5)), color-stop(70%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+        background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* Chrome10+,Safari5.1+ */
+        background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* Opera 12+ */
+        background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* IE10+ */
+        background: radial-gradient(ellipse at center, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        -webkit-box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
+        -moz-box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
+        box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
+        content: "";
+        height: 180px;
+        left: 10px;
+        position: absolute;
+        width: 180px;
+    }

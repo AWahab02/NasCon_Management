@@ -1,0 +1,842 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    -webkit-text-fill-color: white;
+    -webkit-box-shadow: 0 0 0px 1000px #b200ff #000 inset;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+
+.reg__form {
+    border: 2px solid white;
+    border-radius: 20px;
+    outline: none;
+    background: none;
+    color: white;
+    padding: 10px;
+}
+
+.reg__I {
+    border: 2px solid white;
+    border-radius: 20px;
+    outline: none;
+    background: none;
+    color: white;
+    padding: 10px;
+}
+
+.reg__TLN {
+    border: 2px solid white;
+    border-radius: 20px;
+    outline: none;
+    background: none;
+    color: white;
+    padding: 10px;
+}
+
+.reg__TLE {
+    border: 2px solid white;
+    border-radius: 20px;
+    outline: none;
+    background: none;
+    color: white;
+    padding: 10px;
+}
+
+.reg__TLCNIC {
+    border: 2px solid white;
+    border-radius: 20px;
+    outline: none;
+    background: none;
+    color: white;
+    padding: 10px;
+}
+
+.reg__TLCONTACT {
+    border: 2px solid white;
+    border-radius: 20px;
+    outline: none;
+    background: none;
+    color: white;
+    padding: 10px;
+}
+
+.reg__M2N {
+    border: 2px solid white;
+    border-radius: 20px;
+    outline: none;
+    background: none;
+    color: white;
+    padding: 10px;
+}
+
+.reg__M2E {
+    border: 2px solid white;
+    border-radius: 20px;
+    outline: none;
+    background: none;
+    color: white;
+    padding: 10px;
+}
+
+.reg__M2CNIC {
+    border: 2px solid white;
+    border-radius: 20px;
+    outline: none;
+    background: none;
+    color: white;
+    padding: 10px;
+}
+
+.reg__M2CONTACT {
+    border: 2px solid white;
+    border-radius: 20px;
+    outline: none;
+    background: none;
+    color: white;
+    padding: 10px;
+}
+
+.reg__M3N {
+    border: 2px solid white;
+    border-radius: 20px;
+    outline: none;
+    background: none;
+    color: white;
+    padding: 10px;
+}
+
+.reg__M3E {
+    border: 2px solid white;
+    border-radius: 20px;
+    outline: none;
+    background: none;
+    color: white;
+    padding: 10px;
+}
+
+.reg__M3CNIC {
+    border: 2px solid white;
+    border-radius: 20px;
+    outline: none;
+    background: none;
+    color: white;
+    padding: 10px;
+}
+
+.reg__M3CONTACT {
+    border: 2px solid white;
+    border-radius: 20px;
+    outline: none;
+    background: none;
+    color: white;
+    padding: 10px;
+}
+.reg__MN {
+    border: 2px solid white;
+    border-radius: 20px;
+    outline: none;
+    background: none;
+    color: white;
+    padding: 10px;
+}
+.reg__H {
+    border: 2px solid white;
+    border-radius: 20px;
+    outline: none;
+    background: none;
+    color: white;
+    padding: 10px;
+}
+.reg__1 {
+    border: 2px solid white;
+    border-radius: 20px;
+    outline: none;
+    background: none;
+    color: white;
+    padding: 10px;
+}
+.reg__2 {
+    border: 2px solid white;
+    border-radius: 20px;
+    outline: none;
+    background: none;
+    color: white;
+    padding: 10px;
+}
+/*Siblings*/
+.reg__form1 {
+    position: absolute;
+    top: 0.6rem;
+    left: 1.4rem;
+    cursor: text;
+    transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+}
+
+.reg__form2 {
+    position: absolute;
+    top: 9rem;
+    left: 1.4rem;
+    cursor: text;
+    transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+}
+
+.reg__form3 {
+    position: absolute;
+    top: 17.4rem;
+    left: 1.4rem;
+    cursor: text;
+    transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+}
+
+.reg__form4 {
+    position: absolute;
+    top: 25.6rem;
+    left: 1.4rem;
+    cursor: text;
+    transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+}
+
+.reg__form5 {
+    position: absolute;
+    top: 34rem;
+    left: 1.4rem;
+    cursor: text;
+    transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+}
+
+.reg__form6 {
+    position: absolute;
+    top: 42.2rem;
+    left: 1.4rem;
+    cursor: text;
+    transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+}
+
+.reg__form7 {
+    position: absolute;
+    top: 50.6rem;
+    left: 1.4rem;
+    cursor: text;
+    transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+}
+
+.reg__form8 {
+    position: absolute;
+    top: 58.8rem;
+    left: 1.4rem;
+    cursor: text;
+    transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+}
+
+.reg__form9 {
+    position: absolute;
+    top: 67.2rem;
+    left: 1.4rem;
+    cursor: text;
+    transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+}
+
+.reg__form10 {
+    position: absolute;
+    top: 75.4rem;
+    left: 1.4rem;
+    cursor: text;
+    transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+}
+
+.reg__form11 {
+    position: absolute;
+    top: 83.8rem;
+    left: 1.4rem;
+    cursor: text;
+    transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+}
+
+.reg__form12 {
+    position: absolute;
+    top: 92.2rem;
+    left: 1.4rem;
+    cursor: text;
+    transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+}
+
+.reg__form13 {
+    position: absolute;
+    top: 100.4rem;
+    left: 1.4rem;
+    cursor: text;
+    transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+}
+
+.reg__form14 {
+    position: absolute;
+    top: 108.9rem;
+    left: 1.4rem;
+    cursor: text;
+    transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+}
+
+.reg__form15 {
+    position: absolute;
+    top: 117rem;
+    left: 1.4rem;
+    cursor: text;
+    transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+}
+.reg__form16 {
+    position: absolute;
+    top: 125.2rem;
+    left: 1.4rem;
+    cursor: text;
+    transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+}
+.reg__form17 {
+    position: absolute;
+    top: 133.4rem;
+    left: 1.4rem;
+    cursor: text;
+    transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+}
+.reg__form18 {
+    position: absolute;
+    top: 141.6rem;
+    left: 1.4rem;
+    cursor: text;
+    transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+}
+/*Animation*/
+.reg__form:focus {
+    border: 3px solid black;
+}
+
+    .reg__form:focus ~ .reg__form1,
+    .reg__form:not(:placeholder-shown).reg__form:not(:focus) ~ .reg__form1 {
+        top: -0.99rem;
+        left: 0.9rem;
+        font-size: 25px;
+        background: #97a4b4;
+    }
+
+.reg__I:focus {
+    border: 3px solid black;
+}
+
+    .reg__I:focus ~ .reg__form2,
+    .reg__I:not(:placeholder-shown).reg__I:not(:focus) ~ .reg__form2 {
+        top: 7.2rem;
+        left: 0.6rem;
+        font-size: 25px;
+        background: #97a4b4;
+    }
+
+.reg__TLN:focus {
+    border: 3px solid black;
+}
+
+    .reg__TLN:focus ~ .reg__form3,
+    .reg__TLN:not(:placeholder-shown).reg__TLN:not(:focus) ~ .reg__form3 {
+        top: 15.8rem;
+        left: 0.6rem;
+        font-size: 25px;
+        background: #97a4b4;
+    }
+
+.reg__TLE:focus {
+    border: 3px solid black;
+}
+
+    .reg__TLE:focus ~ .reg__form4,
+    .reg__TLE:not(:placeholder-shown).reg__TLE:not(:focus) ~ .reg__form4 {
+        top: 24rem;
+        left: 0.6rem;
+        font-size: 25px;
+        background: #97a4b4;
+    }
+
+.reg__TLCNIC:focus {
+    border: 3px solid black;
+}
+
+    .reg__TLCNIC:focus ~ .reg__form5,
+    .reg__TLCNIC:not(:placeholder-shown).reg__TLCNIC:not(:focus) ~ .reg__form5 {
+        top: 32.2rem;
+        left: 0.6rem;
+        font-size: 25px;
+        background: #97a4b4;
+    }
+
+.reg__TLCONTACT:focus {
+    border: 3px solid black;
+}
+
+    .reg__TLCONTACT:focus ~ .reg__form6,
+    .reg__TLCONTACT:not(:placeholder-shown).reg__TLCONTACT:not(:focus) ~ .reg__form6 {
+        top: 40.5rem;
+        left: 0.6rem;
+        font-size: 25px;
+        background: #97a4b4;
+    }
+
+.reg__M2N:focus {
+    border: 3px solid black;
+}
+
+    .reg__M2N:focus ~ .reg__form7,
+    .reg__M2N:not(:placeholder-shown).reg__M2N:not(:focus) ~ .reg__form7 {
+        top: 48.8rem;
+        left: 0.6rem;
+        font-size: 25px;
+        background: #97a4b4;
+    }
+
+.reg__M2E:focus {
+    border: 3px solid black;
+}
+
+    .reg__M2E:focus ~ .reg__form8,
+    .reg__M2E:not(:placeholder-shown).reg__M2E:not(:focus) ~ .reg__form8 {
+        top: 57.1rem;
+        left: 0.6rem;
+        font-size: 25px;
+        background: #97a4b4;
+    }
+
+.reg__M2CNIC:focus {
+    border: 3px solid black;
+}
+
+    .reg__M2CNIC:focus ~ .reg__form9,
+    .reg__M2CNIC:not(:placeholder-shown).reg__M2CNIC:not(:focus) ~ .reg__form9 {
+        top: 65.6rem;
+        left: 0.6rem;
+        font-size: 25px;
+        background: #97a4b4;
+    }
+
+.reg__M2CONTACT:focus {
+    border: 3px solid black;
+}
+
+    .reg__M2CONTACT:focus ~ .reg__form10,
+    .reg__M2CONTACT:not(:placeholder-shown).reg__M2CONTACT:not(:focus) ~ .reg__form10 {
+        top: 73.7rem;
+        left: 0.6rem;
+        font-size: 25px;
+        background: #97a4b4;
+    }
+
+.reg__M3N:focus {
+    border: 3px solid black;
+}
+
+    .reg__M3N:focus ~ .reg__form11,
+    .reg__M3N:not(:placeholder-shown).reg__M3N:not(:focus) ~ .reg__form11 {
+        top: 82rem;
+        left: 0.6rem;
+        font-size: 25px;
+        background: #97a4b4;
+    }
+
+.reg__M3E:focus {
+    border: 3px solid black;
+}
+
+    .reg__M3E:focus ~ .reg__form12,
+    .reg__M3E:not(:placeholder-shown).reg__M3E:not(:focus) ~ .reg__form12 {
+        top: 90.3rem;
+        left: 0.6rem;
+        font-size: 25px;
+        background: #97a4b4;
+    }
+
+.reg__M3CNIC:focus {
+    border: 3px solid black;
+}
+
+    .reg__M3CNIC:focus ~ .reg__form13,
+    .reg__M3CNIC:not(:placeholder-shown).reg__M3CNIC:not(:focus) ~ .reg__form13 {
+        top: 98.6rem;
+        left: 0.6rem;
+        font-size: 25px;
+        background: #97a4b4;
+    }
+
+.reg__M3CONTACT:focus {
+    border: 3px solid black;
+}
+
+    .reg__M3CONTACT:focus ~ .reg__form14,
+    .reg__M3CONTACT:not(:placeholder-shown).reg__M3CONTACT:not(:focus) ~ .reg__form14 {
+        top: 106.9rem;
+        left: 0.6rem;
+        font-size: 25px;
+        background: #97a4b4;
+    }
+
+.reg__MN:focus {
+    border: 3px solid black;
+}
+
+    .reg__MN:focus ~ .reg__form15,
+    .reg__MN:not(:placeholder-shown).reg__MN:not(:focus) ~ .reg__form15 {
+        top: 115.2rem;
+        left: 0.6rem;
+        font-size: 25px;
+        background: #97a4b4;
+    }
+
+.reg__H:focus {
+    border: 3px solid black;
+}
+
+    .reg__H:focus ~ .reg__form16,
+    .reg__H:not(:placeholder-shown).reg__H:not(:focus) ~ .reg__form16 {
+        top: 123.5rem;
+        left: 0.6rem;
+        font-size: 25px;
+        background: #97a4b4;
+    }
+.reg__1:focus {
+    border: 3px solid black;
+}
+
+    .reg__1:focus ~ .reg__form17,
+    .reg__1:not(:placeholder-shown).reg__1:not(:focus) ~ .reg__form17 {
+        top: 131.8rem;
+        left: 0.6rem;
+        font-size: 25px;
+        background: #97a4b4;
+    }
+.reg__2:focus {
+    border: 3px solid black;
+}
+
+    .reg__2:focus ~ .reg__form18,
+    .reg__2:not(:placeholder-shown).reg__2:not(:focus) ~ .reg__form18 {
+        top: 140.1rem;
+        left: 0.6rem;
+        font-size: 25px;
+        background: #97a4b4;
+    }
+
+
+/*Body work and other attb*/
+header {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: Montserrat;
+    font-size: 80px;
+    opacity: 0.8;
+}
+
+.line {
+    border-left: 6px solid white;
+    height: 2000px;
+    position: absolute;
+    left: 34%;
+    top: 18%;
+    opacity: 0.6;
+}
+
+.left {
+    font-family: Ubuntu;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.reg {
+    font-family: Calibri;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 190px;
+    left: 850px;
+    width: 1000px;
+    height: 605px;
+}
+
+body {
+    background: #97a4b4;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+     /*width: 100%;
+    min-height:100vh;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("new.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;*/
+}
+
+p {
+    margin-left: 15px;
+}
+.read p{
+    font-weight:600;
+    color:#ff4436;
+}
+input,
+input::placeholder {
+    font: 20px/3 sans-serif;
+    font-weight: bold;
+}
+
+.Hash {
+    width: 270px;
+    height: 80px;
+    border: 0;
+    outline: none;
+    background: #2f2f2f;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 0 6px 20px -5px rgba(0,0,0,0,4);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+    .Hash:hover {
+        background: #f44336;
+    }
+
+
+
+
+
+
+
+
+/*BUBLES ANIMATION*/
+#background-wrap {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+/* KEYFRAMES */
+
+@-webkit-keyframes animateBubble {
+    0% {
+        margin-top: 1000px;
+    }
+
+    100% {
+        margin-top: -100%;
+    }
+}
+
+@-moz-keyframes animateBubble {
+    0% {
+        margin-top: 1000px;
+    }
+
+    100% {
+        margin-top: -100%;
+    }
+}
+
+@keyframes animateBubble {
+    0% {
+        margin-top: 1000px;
+    }
+
+    100% {
+        margin-top: -100%;
+    }
+}
+
+@-webkit-keyframes sideWays {
+    0% {
+        margin-left: 0px;
+    }
+
+    100% {
+        margin-left: 50px;
+    }
+}
+
+@-moz-keyframes sideWays {
+    0% {
+        margin-left: 0px;
+    }
+
+    100% {
+        margin-left: 50px;
+    }
+}
+
+@keyframes sideWays {
+    0% {
+        margin-left: 0px;
+    }
+
+    100% {
+        margin-left: 50px;
+    }
+}
+
+/* ANIMATIONS */
+
+.x1 {
+    -webkit-animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    left: -5%;
+    top: 5%;
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    transform: scale(0.6);
+}
+
+.x2 {
+    -webkit-animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    left: 5%;
+    top: 80%;
+    -webkit-transform: scale(0.4);
+    -moz-transform: scale(0.4);
+    transform: scale(0.4);
+}
+
+.x3 {
+    -webkit-animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    left: 10%;
+    top: 40%;
+    -webkit-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    transform: scale(0.7);
+}
+
+.x4 {
+    -webkit-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+    animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+    left: 20%;
+    top: 0;
+    -webkit-transform: scale(0.3);
+    -moz-transform: scale(0.3);
+    transform: scale(0.3);
+}
+
+.x5 {
+    -webkit-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    left: 30%;
+    top: 50%;
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    transform: scale(0.5);
+}
+
+.x6 {
+    -webkit-animation: animateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    left: 50%;
+    top: 0;
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    transform: scale(0.8);
+}
+
+.x7 {
+    -webkit-animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    left: 65%;
+    top: 70%;
+    -webkit-transform: scale(0.4);
+    -moz-transform: scale(0.4);
+    transform: scale(0.4);
+}
+
+.x8 {
+    -webkit-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+    animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+    left: 80%;
+    top: 10%;
+    -webkit-transform: scale(0.3);
+    -moz-transform: scale(0.3);
+    transform: scale(0.3);
+}
+
+.x9 {
+    -webkit-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    left: 90%;
+    top: 50%;
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    transform: scale(0.6);
+}
+
+.x10 {
+    -webkit-animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    left: 80%;
+    top: 80%;
+    -webkit-transform: scale(0.3);
+    -moz-transform: scale(0.3);
+    transform: scale(0.3);
+}
+
+/* OBJECTS */
+
+.bubble {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+    -moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+    height: 200px;
+    position: absolute;
+    width: 200px;
+}
+
+    .bubble:after {
+        background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0) 70%); /* FF3.6+ */
+        background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.5)), color-stop(70%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+        background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* Chrome10+,Safari5.1+ */
+        background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* Opera 12+ */
+        background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* IE10+ */
+        background: radial-gradient(ellipse at center, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        -webkit-box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
+        -moz-box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
+        box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
+        content: "";
+        height: 180px;
+        left: 10px;
+        position: absolute;
+        width: 180px;
+    }
